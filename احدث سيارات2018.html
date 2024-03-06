@@ -1,0 +1,833 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  href="style2.css">
+        <meta name="description" content="موقع سيارات">
+        <meta name="keywords" content="موقع سيارات , موقع سيارات فى مصر">
+        <meta name="viewport" conten="width=devise-width , initial-scale=1.0">
+        <title>New Car 2019</title>
+      <style>
+            h1{color:gray;
+            background-color:yelow;
+            font-size:200px;
+           font-family:italic;
+            outline:10px solid none;
+            
+            }
+            body{
+            color:black;
+            border:solid none;
+            background-image:url("file:///C:/Users/SIR.HP/Workspace/for%20studing/219_1.jpg");
+            
+            text-align:center;
+            
+            }
+            table{
+                background-color:none;
+                display:none;
+            }
+            form{text-align:left;
+            color:gray;
+            }
+            img{
+               border-style: solid;
+  border-width: 20px 10px 20px 10px;
+  border-color:white;
+  outline-10px solid green;
+  width:350px; height:290px;
+  
+            }
+            #imo{
+                width:1145px;
+                height:800px;
+                td{
+                  color:red;
+                }
+            }
+            .sp{
+                margin:60px;
+                font-size:100px;
+                background-color: hite;
+
+                color:black;
+                border:2px solid black;
+            }
+            input{
+              background:none;
+              
+            }
+            
+            
+           div.gell {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 380px;
+}
+
+div.gell:hover {
+  border: 1px solid #777;
+}
+
+/*div.gell img {
+  width: 220px;
+  height: auto;
+}*/
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size:30px;
+  
+}
+a.ref{
+  color:gray;
+}
+a.ref:hover{
+  color:red;
+}
+td{
+  color:blue;
+  padding:30px;
+}
+#950{
+  padding:15px;
+}
+#divo{
+  width:1165px;
+}
+#bm:hover{
+  color:black;
+}
+button{
+  background:none;
+  width:230px;
+  height:50px;
+}
+button:hover{
+  background-color:none;
+  border:3px;
+  width:230px;
+}
+iframe{
+  width:1330px;
+  height:800px;
+}
+.list{
+  float:left;
+  display:none;
+}
+#com{
+  width:900px;
+  height:600px;
+  float:left;
+}
+li{
+  padding:5px;
+}
+#car{
+  font-size:30px;
+  color:gray;
+}
+        </style>
+        <script>
+           window.alert('welcom in my page')
+        </script>
+        
+        
+        <script>
+            function myFunction() {
+var i;
+  var x = document.getElementsByTagName("table");
+  for(i=0;i<16;i++)
+  x[i].style.display = "block";
+}
+        </script>
+        <script>
+          function carfunction(){
+            var y;
+            var z;
+           z= document.getElementsByClassName("list");
+            for(y=0;y<3;y++)
+           z[y] .style.display="block";
+          }
+        </script>
+    
+    </head>
+    <body id="damo" style="   background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; /*background-image: url('data:image/jpeg;base64,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') "*/>
+<div><a href=""><h1 id="bm">BMW 2019</h1></a></div>
+        
+        <div><span class="sp"><a class="ref" href="file:///C:/Users/SIR.HP/Workspace/for%20studing/احدث%20سيارات2018.html?username=kgvjdsffds&password=ckjvhjdfhghkjdfj&gender=famale"><b>home</b></a></span><span class="sp"><a class="ref"><b>new car</b></a></span><span class="sp"><a class="ref" href="file:///C:/Users/SIR.HP/Workspace/for%20studing/try.htm" target="_blank"><b>used car</b></a></span></div>
+        <form>
+           
+           <fieldset >
+            <legend>add your email</legend><br>
+            user name
+             <input type="text" name="username" value="username" >
+            
+           password
+            <input type="password" name="password" value="password"><br>
+            your gender<br>
+            <input type="radio" name="gender" value="male" >male<br>
+            <input type="radio" name="gender" value="famale">famale<br>
+            <input type="submit" value="submit">
+            <select>
+                <option>العراق</option>
+                <option>مصر</option>
+                <option>فلسطين</option>
+                <option>الجزائر</option>
+                <option>المغرب </option>
+                <option>تونس</option>
+                <option>لبنان</option>
+                <option>السعوديه</option>
+                <option>الامارات</option>
+                <option>الاردن</option>
+                <option>ليبيا</option>
+                <option>السودان</option>
+                <option>موريتانيا</option>
+                <option>الكويت</option>
+                <option>سوريا </option>
+                <option>جزر القمر</option>
+                <option>عمان</option>
+                <option>البحرين</option>
+                <option>اليمن</option>
+                <option>الصومال</option>
+            </select>
+           </fieldset>
+        </form>
+        <button type="button" onclick="carfunction()">if you want some information about cars press here</button><br>
+      <fieldset class="list">
+        <img id="com" src="%D9%85%D9%85_%D8%AA%D8%AA%D9%83%D9%88%D9%86_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9.jpg" title="components of car" alt="image">
+        <div class="list"><strong id="car">The car is made up of</strong></div>
+        <ol class="list">
+          <li>Electrical components
+            <ul>
+              <li>Battery and cables</li>
+              <li>Air Conditioner</li>
+              <li>The Marsh</li>
+              <li>Dynamo</li>
+              <li>Electric kit</li>
+              <li>Fayezat</li>
+            </ul>
+            
+          </li>
+          <li>Mechanical components
+            <ul>
+              <li>Guidance system</li>
+              <li>Bauer Stirring</li>
+              <li>Traction mechanism</li>
+              <li>The radiator</li>
+              <li>Disc</li>
+              <li>Brake</li>
+              <li>Lime</li>
+              <li>the engine</li>
+            </ul>
+          </li>
+          <li>Structural components                                 
+            <ul>
+              <li>Sheet</li>
+              <li>paint</li>
+              <li>wheels</li>
+              <li>tabloid</li>
+              <li>glass</li>
+              <li>brushes</li>
+            </ul>
+          </li>
+        </ol>
+      </fieldset>
+       <span><button type="button" onclick= "myFunction()">press to show details</button></span>
+        <span><button type="button"onclick="document.getElementById('dem').innerHTML = Date()">
+Click me to display Date and Time.</button></span>
+<p id="demo"></p>
+<p id="dem"></p>
+
+      <div class="gell">
+      <a href="#demo1"><img src="44_1.jpg" width="300" height="300" alte="صوره السياره" title="press to show details"></a>
+      <div class="desc">625,000$</div>
+      <div>  <table>
+            <tr >
+                <td>Specifications</td>
+                <td>A/T Exclusive 1.5</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>136/4400</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>318i 2019</td>
+            </tr>
+        </table></div>
+      </div>
+        
+      
+    <div class="gell">
+      <a href="#demo2"><img src="11_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"> </a>
+      <div class="desc">1,325,000$</div>
+      <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Luxury 2.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>184/5000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 520i</td>
+            </tr>
+        </table>
+      </div>
+    </div>
+      <div class="gell">
+      <a href="#demo3"> <img src="11_5.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+      <div class="desc">1,080,000$</div>
+      <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Business 2.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>184/5000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 520i</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      <div class="gell">
+      <a href="#demo4"><img src="195_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"> </a>
+      <div class="desc">1,525,000$</div>
+      <div>
+        
+          <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T M Sport 2.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>252/5200-6500</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 530i</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      
+      <div class="gell">
+      <a href="#demo5"><img src="238_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+      <div class="desc">1,525,000$</div>
+      <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T M-Performance New Shape 3.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>360/5800</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X3</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      
+      <div class="gell">
+        <a href="#demo6"><img src="238_7.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+        <div class="desc">1,325,000$</div>
+        <div>
+          <table>
+            <tr>
+                <td>Specifications</td>
+                <td>2.0 A/T X-Line New Shape</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>252/5000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X3</td>
+            </tr>
+        </table>
+        </div>
+      </div>
+      
+      <div class="gell">
+      <a href="#demo7"><img src="330_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+      <div class="desc">950,000$</div>
+      <div>
+        <table id="950">
+            <tr>
+                <td>Specifications</td>
+                <td>2.0 A/T Luxury</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>STEPTronic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>252/5200-6500</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 330i</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      
+      <div class="gell">
+       <a href="#demo8"><img src="326_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+       <div class="desc">1,980,000$</div>
+       <div>
+          <table>
+            <tr>
+                <td>Specifications</td>
+                <td>4.4 F/O A/T Sport</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>450/5500-6000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X6</td>
+            </tr>
+        </table>
+       </div>
+      </div>
+      
+      <div class="gell">
+       <a href="#demo9"><img src="219_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"> </a>
+       <div class="desc">850,000$</div>
+       <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>2.0 A/T M-Sport</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>STEPTronic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>184/5000-620</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 320i	</td>
+            </tr>
+        </table>
+       </div>
+      </div>
+      
+      <div class="gell">
+       <a href="#demo10"><img src="219_5.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+       <div class="desc">780,000$</div>
+       <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>2.0 A/T Exclusive</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>STEPTronic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>184/5000-620</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 320i</td>
+            </tr>
+        </table>
+       </div>
+      </div>
+      
+      <div class="gell">
+      <a href="#demo11"><img src="219_4.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+      <div class="desc">820,000$</div>
+      <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Luxury 2.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>STEPTronic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>184/5000-620</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 320i</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      
+      <div class="gell">
+      <a href="#demo12"><img src="647_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+      <div class="desc">740.000$</div>
+      <div>
+        <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T M-Sport 1.5</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>140/4600-6500</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X2</td>
+            </tr>
+        </table>
+      </div>
+      </div>
+      
+      <div class="gell">
+          <a href="#demo13"><img src="647_3.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+          <div class="desc">675.000$</div>
+          <div>
+             <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Exclusive 1.5</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>140/4600-6500</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X2</td>
+            </tr>
+        </table>
+          </div>
+      </div>
+      
+      <div class="gell">
+          <a href="#demo14"> <img src="568_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+          <div class="desc">2,850,000$</div>
+          <div>
+             <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Pure Excellence 3.0</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>326/5500-6500</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 740Li</td>
+            </tr>
+        </table>
+          </div>
+      </div>
+      
+      <div class="gell">
+          <a href="#demo15"><img src="416_1.jpg" width="300" height="300" alte="صوره السياره" title="صوره السياره"></a>
+          <div class="desc">725,000$</div>
+          <div>
+            <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T H/B LCI 1.5</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>136/4500-6000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 118i</td>
+            </tr>
+        </table>
+          </div>
+      </div>
+      
+      <div class="gell" id="divo">
+          <a href="#demo16"><img id="imo" src="402_1.jpg" width="500" height="500" alte="صوره السياره" title="صوره السياره"></a>
+          <div class="desc">820,000$</div>
+          <div>
+             <table>
+            <tr>
+                <td>Specifications</td>
+                <td>A/T Sport New Shape</td>
+            </tr>
+            <tr>
+                <td>Motion vector</td>
+                <td>ottomatic</td>
+            </tr>
+            <tr>
+                <td>Engine power</td>
+                <td>192/5000</td>
+            </tr>
+            <tr>
+                <td>the car</td>
+                <td>2019 X1</td>
+            </tr>
+        </table>
+          </div>
+      </div>
+        
+       
+       
+       
+       <iframe src="file:///C:/Users/SIR.HP/Workspace/for%20studing/try.htm">used </iframe>
+       
+       
+       
+       
+    </body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            X&O
+        </title>
+        <style>
+            div.es{
+                width:400px;
+                height:400px;
+                text-align:center;
+                margin: 0 auto;
+                border:2px solid black;
+            }
+            div.xe{
+                width:120px;
+                height:120px;
+                background-color:blue;
+                margin:5px;
+                color:white;
+                float:left;
+                font-size:120px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="es">
+            <div class="xe" id="es1" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es2" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es3" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es4" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es5" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es6" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es7" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es8" onclick="eslam(this.id)"></div>
+            <div class="xe" id="es9" onclick="eslam(this.id)"></div>
+        </div>
+        
+        <script>
+            var turn=true;
+            var s=[];
+            function reset(A,B,C){
+                document.getElementById('es'+A).style.color="black";
+                document.getElementById('es'+B).style.color="black";
+                document.getElementById('es'+C).style.color="black";
+                setTimeout(function(){location.reload()},5000)
+            }
+            function checkwinner(){
+                for(var i=1;i<10;i++){
+                    s[i]=document.getElementById('es'+i).innerHTML;
+                }
+                if(s[1]==s[2] && s[2]==s[3] && s[1]!="" ){
+                    alert('player'+s[1]+'winner')
+                    reset(1,2,3);
+                }
+                if(s[4]==s[5] && s[5]==s[6] && s[4]!="" ){
+                    alert('player'+s[4]+'winner')
+                    reset(4,5,6);
+                }if(s[7]==s[8] && s[8]==s[9] && s[7]!="" ){
+                    alert('player'+s[7]+'winner')
+                    reset(7,8,9);
+                }
+                
+                if(s[1]==s[4] && s[4]==s[7] && s[1]!="" ){
+                    alert('player'+s[1]+'winner')
+                    reset(1,4,7);
+                }
+                if(s[2]==s[5] && s[5]==s[8] && s[2]!="" ){
+                    alert('player'+s[2]+'winner')
+                    reset(2,5,8);
+                }if(s[3]==s[6] && s[6]==s[9] && s[3]!="" ){
+                    alert('player'+s[3]+'winner')
+                    reset(3,6,9);
+                }
+                
+                
+                
+                if(s[1]==s[5] && s[5]==s[9] && s[1]!="" ){
+                    alert('player'+s[1]+'winner')
+                    reset(1,5,9);
+                }
+                if(s[3]==s[5] && s[5]==s[7] && s[3]!="" ){
+                    alert('player'+s[3]+'winner')
+                    reset(3,5,7);
+                }
+            }
+            function eslam(id){
+                if(turn && document.getElementById(id).innerHTML=="" ){
+                    document.getElementById(id).innerHTML="X";
+                   turn=!turn;
+                }else if(!turn && document.getElementById(id).innerHTML==""){
+                  document.getElementById(id).innerHTML="O";
+                  turn=!turn;
+                }
+                checkwinner();
+            }
+        </script>
+    </body>
+</html>
+<!DOCTIPE html>
+<html>
+    <head>
+        <title>XO</title>
+        <style>
+            div.es{
+                width:400px;
+                height:400px;
+                margin:100 auto;
+            }
+            div.e{
+                font-size:30px;
+                text-aligne:center;
+                float:left;
+                color:white;
+                background-color:red;
+                margin:5px;
+                width:110px;
+                height:110px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="es">
+            <div class="e" id="A1" onclick="onc(this.id)"></div>
+            <div class="e" id="A2" onclick="onc(this.id)"></div>
+            <div class="e" id="A3" onclick="onc(this.id)"></div>
+            <div class="e" id="A4" onclick="onc(this.id)"></div>
+            <div class="e" id="A5" onclick="onc(this.id)"></div>
+            <div class="e" id="A6" onclick="onc(this.id)"></div>
+            <div class="e" id="A7" onclick="onc(this.id)"></div>
+            <div class="e" id="A8" onclick="onc(this.id)"></div>
+            <div class="e" id="A9" onclick="onc(this.id)"></div>
+        </div>
+        
+        <script>
+            var s=[],i;
+            var turn=true;
+            function check(id){
+                 for(i=1;i<10;i++){
+                s[i]=document.getElementById('A'+i).innerHTML;
+            }
+            if(s[1] == s[2] && s[2] == s[3] && s[1]!=""){
+                alert(es)
+            }
+            }
+            
+            function onc(id){
+                if(turn ){
+                    document.getElementById(id).innerHTML="X";
+                    turn=!true;
+                }
+                else 
+                    {document.getElementById(id).innerHTML="O";
+                    turn=true;}
+                check();
+            }
+        </script>
+    </body>
+</html>-->

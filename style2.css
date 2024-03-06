@@ -1,0 +1,124 @@
+h1{color:gray;
+            background-color:yelow;
+            font-size:200px;
+           font-family:italic;
+            outline:10px solid none;
+            
+            }
+            body{
+            color:black;
+            border:solid none;
+            background-image:url("file:///C:/Users/SIR.HP/Workspace/for%20studing/219_1.jpg");
+            
+            text-align:center;
+            
+            }
+            table{
+                background-color:none;
+                display:none;
+		width:1000px;
+		height:400px;
+            }
+            form{text-align:left;
+            color:gray;
+            }
+            img{
+               border-style: solid;
+  border-width: 20px 10px 20px 10px;
+  border-color:white;
+  outline-10px solid green;
+  width:350px; height:290px;
+  
+            }
+            #imo{
+                width:1145px;
+                height:800px;
+                td{
+                  color:red;
+                }
+            }
+            .sp{
+                margin:60px;
+                font-size:100px;
+                background-color: hite;
+
+                color:black;
+                border:2px solid black;
+            }
+            input{
+              background:none;
+              
+            }
+            
+            
+           div.gell {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 380px;
+}
+
+div.gell:hover {
+  border: 1px solid #777;
+}
+
+/*div.gell img {
+  width: 220px;
+  height: auto;
+}*/
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size:30px;
+  
+}
+a.ref{
+  color:gray;
+}
+a.ref:hover{
+  color:red;
+}
+td{
+  color:blue;
+  padding:30px;
+}
+#950{
+  padding:15px;
+}
+#divo{
+  width:1165px;
+}
+#bm:hover{
+  color:black;
+}
+button{
+  background:none;
+  width:230px;
+  height:50px;
+}
+button:hover{
+  background-color:none;
+  border:3px;
+  width:230px;
+}
+iframe{
+  width:1330px;
+  height:800px;
+}
+.list{
+  float:left;
+  display:none;
+}
+#com{
+  width:900px;
+  height:600px;
+  float:left;
+}
+li{
+  padding:5px;
+}
+#car{
+  font-size:30px;
+  color:gray;
+}

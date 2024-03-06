@@ -1,0 +1,26 @@
+
+<html>
+   <head>
+   
+      <script type = "text/javascript">
+         <!--
+            function over() {
+               if(document.fo.inp.value==""){
+                  alert("enter value");
+               }
+               es= escape(document.fo.inp.value);
+               document.cookie='siting name'+es;
+               document.write('siting name : '+es);
+            }
+         //-->
+      </script>
+      
+   </head>
+   <body>
+     <form name="fo" >
+      <input name="inp" type="text">
+      <input name="bot" type="button" value="press" onclick="over();">
+     </form>
+         
+   </body>
+</html>
